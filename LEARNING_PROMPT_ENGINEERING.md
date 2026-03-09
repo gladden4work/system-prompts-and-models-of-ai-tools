@@ -682,12 +682,12 @@ The dominant organization pattern uses XML-style tags to section the prompt:
 
 Every prompt uses emphasis markers to indicate priority:
 
-| Marker | Meaning | Used in |
-|--------|---------|---------|
+| Marker (Highest → Lowest) | Meaning | Used in |
+|---------------------------|---------|---------|
+| `EXTREMELY IMPORTANT` | Highest priority directive — overrides all | Windsurf |
 | `CRITICAL` | Must not violate under any circumstance | Bolt, Same.dev, v0 |
 | `IMPORTANT` | Strong rule with serious consequences | Windsurf, Cursor, Claude Code |
 | `NEVER` / `ALWAYS` | Absolute behavioral constraint | All prompts |
-| `EXTREMELY IMPORTANT` | Highest priority directive | Windsurf |
 | Bold/Caps combo | Visual emphasis for scanning | All prompts |
 
 ---
